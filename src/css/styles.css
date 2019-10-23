@@ -1,0 +1,225 @@
+.navbar {
+  padding: 50px 100px 50px 100px;
+}
+
+.navbar .nav-item {
+  margin-left: 50px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+a, .navbar-brand, .navbar-nav .nav-item {
+  color: rgba(0, 0, 0, 0.4);
+}
+a:hover, .navbar-brand:hover, .navbar-nav .nav-item:hover {
+  color: #000;
+  opacity: 1;
+  outline: none;
+  text-decoration: none;
+}
+
+.navbar-brand img {
+  width: 120px;
+}
+
+@media screen and (max-width: 1920px) {
+  .navbar {
+    padding: 50px 450px 50px 450px;
+  }
+}
+@media screen and (max-width: 1720px) {
+  .navbar {
+    padding: 50px 100px 50px 100px;
+  }
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.home {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  animation-name: fadeIn;
+  animation-duration: 0.5s;
+}
+
+.card {
+  height: 350px;
+  border: none;
+  min-width: fit-content;
+  padding: 0;
+  margin-bottom: 40px;
+  border-radius: 0;
+}
+
+.card-body {
+  margin: 0;
+  width: 250px;
+}
+
+.card-body .btn {
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 20px;
+  padding: 10px 65px;
+  background-color: #000;
+  border-radius: 0;
+  border-color: #000;
+}
+
+.bigCase .btn:hover {
+  border-color: #fff;
+  border-width: 1px;
+  background-color: transparent;
+  transition: 0.3s;
+}
+
+.smallCase .btn:hover {
+  border-color: #000;
+  color: #000;
+  border-width: 1px;
+  background-color: transparent;
+  transition: 0.3s;
+}
+
+.smallCase {
+  display: inline-block;
+  width: auto;
+}
+
+.bigCase {
+  width: 70%;
+  background-size: 100%;
+  background-position-y: 50%;
+}
+
+.bigCase .card-body {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #f7f7f7;
+}
+
+.card-title {
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.about {
+  animation-name: fadeIn;
+  animation-duration: 0.5s;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.work {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  animation-name: fadeIn;
+  animation-duration: 0.5s;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.contact-form-container {
+  border: none;
+  width: 50%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 10px;
+  background: #f7f7f7;
+  animation-name: fadeIn;
+  animation-duration: 0.5s;
+}
+
+.contact-input, submit-button {
+  width: 90%;
+}
+
+.contact-input {
+  padding: 10px;
+  margin: 5px;
+  border: 0;
+}
+
+.contact-input:focus {
+  outline: none;
+  border-bottom: none;
+  transition: ease-in-out 0.25s;
+}
+
+.contact-form-container .submit-button {
+  padding: 10px 16px;
+  width: 90%;
+  margin-top: 10px;
+  border: none;
+  background-color: #333;
+  color: #fff;
+  font-size: 1.25em;
+  transition: ease-in-out 0.5s;
+}
+
+.contact-form-container .submit-button:hover {
+  opacity: 0.6;
+  cursor: pointer;
+}
+
+.sent-message-box, .contact-form-container {
+  margin: auto;
+}
+
+.sent-message-box {
+  width: 100%;
+  height: 50%;
+  font-size: 1.5em;
+  color: #000;
+  text-align: center;
+  padding: 12px 16px;
+  animation-name: fadeIn;
+  animation-duration: 0.5s;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Lato", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f7f7f7;
+}
+
+.back {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=styles.css.map */

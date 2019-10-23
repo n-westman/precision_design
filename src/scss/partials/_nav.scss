@@ -1,0 +1,60 @@
+ 
+// Navigation Body 
+
+.navbar {
+    padding: 50px 100px 50px 100px;
+  }
+
+// Navigation Links  (rightside)
+
+  .navbar .nav-item {
+    margin-left: 50px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+  }
+
+  a, .navbar-brand, .navbar-nav .nav-item {
+    color: rgba(0,0,0,0.4);
+     &:hover {
+      color: #000;
+      opacity: 1;
+      outline: none;
+      text-decoration: none;
+      }
+  }
+
+  // Navigation Image (left side)
+
+.navbar-brand img {
+    width: 120px;
+
+  }
+
+// Media Queries
+
+@media screen and (max-width: 1920px) {
+  
+  .navbar {
+    padding: 50px 450px 50px 450px;
+  }
+
+}
+
+  @media screen and (max-width: 1720px) {
+
+    .navbar {
+      padding: 50px 100px 50px 100px;
+    }
+}
+
+// @media screen and (max-width: 1024px) {   
+  
+//   }
+  
+//   @media screen and (max-width: 768px) {
+
+//   }
+  
+// @media screen and (max-width: 480px) {
+  
+// }
