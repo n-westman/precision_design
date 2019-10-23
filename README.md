@@ -1,6 +1,6 @@
 ============================
 PROJECT INFO
-============================
+
 
 I created this website to develop my knowledge in React using React Router. I also used React Boostrap which was very handy when it comes to getting a good base to build from. 
 
@@ -13,7 +13,7 @@ Things to do in the future:
 
 ============================
 REGULAR REACT INFO
-============================
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
