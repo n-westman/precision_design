@@ -1,9 +1,0 @@
-@import '../animation/fadeIn';
-
-.work {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  animation-name: fadeIn;
-  animation-duration: 0.5s;
-}

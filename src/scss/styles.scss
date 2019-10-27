@@ -1,28 +1,57 @@
+// Sending each stylesheet into partials. Find inside partial folder.
+
 @import 'partials/nav',
-        'partials/home',
-        'partials/about',
-        'partials/work',
-        'partials/contact',
-        'partials/case';
+'partials/overview',
+'partials/contact',
+'partials/message',
+'partials/footer';
 
 
 body {
-    margin: 0;
-    padding: 0;
-    font-family: "Lato", "Helvetica Neue",
-      sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    background-color: #f7f7f7; 
-  } 
+  margin: 0;
+  padding: 0;
+  font-family: "Lato", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #ffffff;
+}
 
- 
-  
-  // code {
-  //   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-  //     monospace;
-  // }
+// Less advanced pages
 
-  // font-family: -apple-system, BlinkMacSystemFont, "Lato", "Segoe UI", "Roboto", "Oxygen",
-  //     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-  //     sans-serif;
+.testimonials {
+  display: block;
+  width: 40%;
+  padding: 5%;
+}
+
+.find_us {
+  display: block;
+  width: 40%;
+  padding: 5%;
+}
+
+.case_one {
+  display: block;
+  width: 40%;
+  padding: 5%;
+}
+
+.no_match {
+  text-align: center;
+  padding: 20%;
+}
+
+
+
+
+
+
+// code {
+//   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+//     monospace;
+// }
+
+// font-family: -apple-system, BlinkMacSystemFont, "Lato", "Segoe UI", "Roboto", "Oxygen",
+//     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+//     sans-serif;

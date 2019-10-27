@@ -1,13 +1,13 @@
-import React, { Component } from 'react';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import { Home } from './pages/Home';
-import { About } from './pages/About';
-import { Work } from './pages/Work';
-import { Contact } from './pages/Contact';
-import { NoMatch } from './pages/NoMatch';
-import { CaseOne } from './pages/CaseOne';
-import { Layout } from './components/Layout';
-import { NavigationBar } from './components/NavigationBar';
+import React, { Component } from "react";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { Overview } from "./pages/Overview";
+import { Testimonials } from "./pages/Testimonials";
+import { FindUs } from "./pages/Find_us";
+import { Contact } from "./pages/Contact";
+import { NoMatch } from "./pages/NoMatch";
+import { CaseOne } from "./pages/CaseOne";
+import { Layout } from "./components/Layout";
+import { NavigationBar } from "./components/NavigationBar";
 
 class App extends Component {
   render() {
@@ -17,9 +17,9 @@ class App extends Component {
           <NavigationBar />
           <Layout>
             <Switch>
-              <Route exact path="/" component={Home} />
-              <Route path="/about" component={About} />
-              <Route path="/work" component={Work} />
+              <Route exact path="/" component={Overview} />
+              <Route path="/testimonials" component={Testimonials} />
+              <Route path="/find_us" component={FindUs} />
               <Route path="/contact" component={Contact} />
               <Route path="/caseone" component={CaseOne} />
               <Route component={NoMatch} />
@@ -29,6 +29,6 @@ class App extends Component {
       </React.Fragment>
     );
   }
-} 
+}
 
 export default App;

@@ -1,7 +1,7 @@
-import React from 'react';
+import React from "react";
 
 export const NoMatch = () => (
-  <div>
+  <div className="no_match">
     <h2>404 error</h2>
   </div>
-)
+);

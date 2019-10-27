@@ -1,0 +1,27 @@
+@import '../animation/fadeIn';
+
+//Overview top section
+
+.container {
+    display: contents;
+}
+
+.overview {
+    display: flex;
+    animation-name: fadeIn;
+    animation-duration: 0.5s;
+    height: 720px;
+    background-position-x: center;
+    color: white;
+    padding: 100px;
+    align-items: flex-end;
+    background-size: cover;
+}
+
+.overview h1 {
+    font-size: 72px;
+    font-family: 'Playfair Display';
+    font-style: italic;
+    white-space: pre-wrap;
+    padding: 50px;
+}

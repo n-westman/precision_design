@@ -1,0 +1,50 @@
+//Footer section on Overview page
+
+.footer {
+    background-color: #F2F2F2;
+    padding: 10%;
+    display: flex;
+}
+
+.smallCase {
+    border: none;
+
+}
+
+.card-body .card-title {
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 10px;
+    margin-bottom: 25px;
+
+}
+
+.card-body .card-text {
+    font-size: 16px;
+    color: #6A6464;
+
+}
+
+.card-body img {
+    width: 100%;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+
+}
+
+.card-body button {
+    background-color: transparent;
+    border: none;
+    color: #D28C00;
+    font-size: 11px;
+    text-transform: uppercase;
+    margin-left: -12px;
+
+}
+
+.card-body button:hover {
+    background-color: transparent;
+    color: #000;
+
+}

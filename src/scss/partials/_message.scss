@@ -1,0 +1,22 @@
+//Message section on Overview page
+
+.messageContainer {
+    padding: 120px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.messageTitle {
+    font-family: 'Playfair Display', serif;
+    font-size: 48px;
+}
+
+.messageParagraph {
+    font-family: 'Lato', serif;
+    margin-left: 120px;
+    width: 40%;
+    font-size: 20px;
+    color: #6A6464;
+    white-space: pre-wrap;
+}

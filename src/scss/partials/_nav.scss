@@ -1,60 +1,106 @@
- 
-// Navigation Body 
+ // Navigation Body 
 
-.navbar {
-    padding: 50px 100px 50px 100px;
-  }
+ .navbar {
+   margin-left: auto;
+   color: white;
+   background-color: #1C1C21;
+   position: fixed;
+   top: 0;
+   width: 100%;
+ }
 
-// Navigation Links  (rightside)
+ .navbar-collapse {
+   justify-content: center;
 
-  .navbar .nav-item {
-    margin-left: 50px;
-    text-transform: uppercase;
-    letter-spacing: 3px;
-  }
+ }
 
-  a, .navbar-brand, .navbar-nav .nav-item {
-    color: rgba(0,0,0,0.4);
-     &:hover {
-      color: #000;
-      opacity: 1;
-      outline: none;
-      text-decoration: none;
-      }
-  }
+ .ml-auto .mx-auto {
+   margin-left: 0 !important;
+   justify-content: center;
+ }
 
-  // Navigation Image (left side)
+ .navbar-nav {
+   margin-left: auto;
+ }
 
-.navbar-brand img {
-    width: 120px;
+ // Navigation Right Side
 
-  }
+ .navbar #contact {
+   background-color: #D28C00;
+   color: #1C1C21;
+   text-transform: uppercase;
+   font-weight: bold;
+   font-size: 10px;
+   height: 35px;
+   padding: 10px;
+   margin-right: 20px;
+ }
 
-// Media Queries
+ .navbar #engelska {
+   color: rgba(255, 255, 255, 1);
+   text-transform: uppercase;
+   font-weight: bold;
+   font-size: 10px;
+ }
 
-@media screen and (max-width: 1920px) {
-  
-  .navbar {
-    padding: 50px 450px 50px 450px;
-  }
+ .navbar #svenska {
+   color: rgba(255, 255, 255, 0.5);
+   text-transform: uppercase;
+   font-weight: bold;
+   font-size: 10px;
+   margin-right: 20px;
+ }
 
-}
+ // Navigation Left Side
 
-  @media screen and (max-width: 1720px) {
+ .navbar-light .navbar-brand {
+   color: rgba(255, 255, 255, 1);
+   text-transform: uppercase;
+   letter-spacing: 1px;
+   font-size: 14px;
+   margin-left: 20px;
+ }
 
-    .navbar {
-      padding: 50px 100px 50px 100px;
-    }
-}
+ .navbar-light .navbar-brand:hover {
+   color: #D28C00;
+   text-transform: uppercase;
+   letter-spacing: 1px;
+   font-size: 14px;
+   margin-left: 20px;
+ }
 
-// @media screen and (max-width: 1024px) {   
-  
-//   }
-  
-//   @media screen and (max-width: 768px) {
+ // Navigation Center links
 
-//   }
-  
-// @media screen and (max-width: 480px) {
-  
-// }
+
+ .ml-auto #testimonials {
+   margin: 25px;
+ }
+
+ .ml-auto navbar-nav {
+   position: absolute;
+ }
+
+ .navbar .nav-item {
+   text-transform: uppercase;
+   letter-spacing: 1px;
+   font-size: 11px;
+   color: white;
+
+ }
+
+ .navbar .nav-item .navCenter {
+   padding: 15px;
+ }
+
+ a,
+ .navbar-brand,
+ .navbar-nav .nav-item {
+   color: rgba(255, 255, 255, 1);
+
+   &:hover {
+     color: #D28C00;
+     opacity: 1;
+     outline: none;
+     text-decoration: none;
+   }
+ }

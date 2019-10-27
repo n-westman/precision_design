@@ -1,19 +1,10 @@
 import React from "react";
-import { useHistory } from "react-router-dom";
 
-export const CaseOne = props => {
-  let history = useHistory();
-
-  function handleClick() {
-    history.push("/");
-  }
-
+export const Testimonials = () => {
   return (
-    <div className="case_one">
-      <h2>Case</h2>
-      <p className="back" onClick={handleClick}>
-        Get back
-      </p>
+    <div className="testimonials">
+      <h2>Testimonials</h2>
+      <p>This is mostly about lorem.</p>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
