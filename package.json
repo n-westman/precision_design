@@ -1,5 +1,5 @@
 {
-  "name": "design_web",
+  "name": "precision_design",
   "version": "0.1.0",
   "private": true,
   "homepage": ".",
@@ -19,7 +19,7 @@
     "deploy": "gh-pages -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
-  }, 
+  },
   "eslintConfig": {
     "extends": "react-app"
   },
