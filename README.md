@@ -1,19 +1,14 @@
 ============================
 PROJECT INFO
 
+Created with React. Using React Router for more effective loading times between pages.
+Also using Sass for easier management of css files.
 
-I created this website to develop my knowledge in React using React Router. I also used React Boostrap which was very handy when it comes to getting a good base to build from. 
-
-Things to do in the future:
-
-1. Update my About page so that it doesn't use Lorem ipsum.
-2. Update my Work page so that it more dynamicly uses both small and big case components.
-3. Mobile friendly update. 
-4. Update my cases so that they actually displays the story and results of a case.
+Note that parts of the pages are placed in the component folder and can be used on each page as a component.
+For example Footer is a component placed in the Overview page but could in theory be used on other pages.
 
 ============================
 REGULAR REACT INFO
-
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
